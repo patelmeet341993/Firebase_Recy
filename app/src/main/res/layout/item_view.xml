@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="#19B9B6B6"
+    android:id="@+id/rel"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_toLeftOf="@+id/ettime"
+        android:layout_height="wrap_content"
+        android:id="@+id/etmsg"
+        android:text="hi"
+        android:textSize="30dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etdate"
+        android:text="05 oct 2019"
+        android:textSize="14dp"
+        android:layout_below="@+id/etmsg"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ettime"
+        android:text="3:16 pm"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"></TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read"
+        android:id="@+id/btnread"
+        android:layout_below="@+id/etmsg"
+        android:layout_alignParentRight="true"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/btndelete"
+        android:layout_below="@+id/etmsg"
+        android:layout_toLeftOf="@+id/btnread"
+        ></Button>
+
+
+</RelativeLayout>
